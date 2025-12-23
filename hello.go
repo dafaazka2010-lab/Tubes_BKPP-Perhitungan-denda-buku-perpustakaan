@@ -24,10 +24,8 @@ func main() {
 		fmt.Scan(&nama)
 
 		fmt.Printf("\n============ Data Buku ============\n")
-
-		// ===============================
+		
 		// INPUT JUMLAH BUKU
-		// ===============================
 		valid = false
 		for valid == false {
 			fmt.Print("Masukkan jumlah buku (1-10): ")
@@ -58,9 +56,7 @@ func main() {
 			}
 		}
 
-		// ===============================
 		// INPUT HARI KETERLAMBATAN
-		// ===============================
 		valid = false
 		for valid == false {
 			fmt.Print("Masukkan hari keterlambatan: ")
@@ -87,9 +83,7 @@ func main() {
 			}
 		}
 
-		// ===============================
 		// INPUT DATA BUKU
-		// ===============================
 		for i := 1; i <= jumlahBuku; i++ {
 			fmt.Println("\nBuku ke-", i)
 			fmt.Println("Catatan: Judul buku TANPA spasi")
@@ -121,9 +115,7 @@ func main() {
 			}
 		}
 
-		// ===============================
 		// OUTPUT
-		// ===============================
 		fmt.Println("\n===== HASIL =====")
 		fmt.Println("Nama peminjam   :", nama)
 		fmt.Println("Jumlah buku     :", jumlahBuku)
@@ -138,3 +130,4 @@ func main() {
 		}
 	}
 }
+
