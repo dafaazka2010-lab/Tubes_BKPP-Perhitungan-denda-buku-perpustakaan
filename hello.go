@@ -77,7 +77,7 @@ func main() {
 				if valid == false {
 					fmt.Println("Masukkan hari dalam bentuk ANGKA (contoh: 2)")
 				} else {
-					fmt.Sscan(inputHari, &hari)
+					fmt.Scan(inputHari, &hari)
 				}
 				fmt.Println()
 			}
@@ -130,4 +130,5 @@ func main() {
 		}
 	}
 }
+
 
